@@ -11,6 +11,9 @@ const CreateNoteForm = ({
     const onSubmit = (e) => {
         console.log(e);
         e.preventDefault();
+        if(currentNote.length === 0) {
+            return;
+        }
         setNotes([...notes, { id: notes.length + 1, value: currentNote }]);
         setCurrentNote("");
     }
