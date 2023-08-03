@@ -8,9 +8,6 @@ function App() {
   const [updateNote, setUpdateNote] = useState(null);
   const [notes, setNotes] = useState([]);
 
-  // ['vishal', 'hello', 'vishal', 'hello']
-  // [{id: 1, value: 'vishal'}, {id: 2, value: 'hello'}, {id: 3, value: 'vishal'}, {id: 4, value: 'hello'}]
-
   const onDelete = (id) => {
     const updatedNotes = notes.filter((n) => n.id !== id);
     setNotes(updatedNotes);
