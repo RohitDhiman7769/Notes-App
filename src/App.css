@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.notes-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border-top: 2px solid grey;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px 10px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+
